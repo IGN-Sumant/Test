@@ -1,0 +1,149 @@
+.container-fluid{
+    height: 650px;
+    background: linear-gradient(
+      rgba(70, 33, 173, 0.5), 
+      rgba(70, 33, 0.573, 0.5)
+    ),
+    url("../images/component.png");
+}
+.head-section{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.logo{
+    top: 17px;
+    left: 939px;
+    width: 39px;
+    margin-top: 7px;
+    height: 39px;
+    background: #5F41B6 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 1;
+}
+.active{
+    text-decoration: underline !important;
+}
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    min-width: 40px; 
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+}
+.searchBox{
+    height: 37px !important;
+    border: none !important;
+    border-top-right-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+}
+.btn-search{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: white;
+    height: 37px;
+    border: none;
+}
+.fa-search{
+color: gray;
+}
+.title{
+    font: Bold 40px/49px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.body-section{
+    top: 72px;
+    position: inherit;
+}
+.para{
+    width: 42%;
+    display: inline-block;
+    text-align: center;
+    font: Regular 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.navbar-expand-md{
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 768px) {
+    .para{
+        width:100%;
+    }
+    .subSection{
+        margin-top: 30% !important;
+    }
+    .container-fluid{
+        height: 1030px;
+    }
+    .btn-section{
+        margin-top: -1% !important;
+    }
+    .btn-login{
+        margin-left: 0% !important;
+        margin-top: 10px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: -34px;
+        left: 0;
+    }
+    .navbar-expand-md{
+        position: relative !important;
+    }
+}
+.nav-link{
+    background: none !important;
+    color: white;
+}
+.subimg{
+    background-repeat: no-repeat;
+    height: 53px;
+}
+.subSection{
+    margin-top: 10%;
+    color: white;
+}
+.btn-signup{
+    cursor: pointer;
+    border: 1px solid white !important;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: white !important;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 57px !important;
+}
+.btn-login{
+    margin-left: 5%;
+    cursor: pointer;
+    border: 1px solid white !important;
+    height: 50px;
+    width: 200px;
+    color: blue !important;
+    background-color: white !important;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 57px !important;
+}
+.btn-section{
+    margin-top: 5%;
+}
